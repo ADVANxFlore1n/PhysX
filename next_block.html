@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Занимательная физика - Школьные блоки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #4CAF50;
+        }
+
+        .formula {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            margin-top: 10px;
+        }
+
+        .example {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .unit {
+            font-weight: bold;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Занимательная физика - Школьные блоки</h1>
+</header>
+
+<main>
+    <!-- Раздел 1: Кинематика -->
+    <div class="section">
+        <h2>1. Кинематика</h2>
+        <p>Кинематика изучает движение объектов без учета причин, которые его вызывают. Включает такие понятия, как скорость, ускорение, путь и время.</p>
+
+        <div class="formula">
+            <strong>Основная формула для расчета пути:</strong> S = v₀ * t + (a * t²) / 2
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>S — путь (метры, м)</li>
+                <li>v₀ — начальная скорость (метры в секунду, м/с)</li>
+                <li>t — время (секунды, с)</li>
+                <li>a — ускорение (метры на секунду в квадрате, м/с²)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если тело движется с начальной скоростью 0 м/с, ускорением 2 м/с² в течение 5 секунд, путь будет:
+            <br><br>
+            S = 0 * 5 + (2 * 5²) / 2 = 25 метров
+        </div>
+    </div>
+
+    <!-- Раздел 2: Закон сохранения энергии -->
+    <div class="section">
+        <h2>2. Закон сохранения энергии</h2>
+        <p>Закон сохранения энергии гласит, что в замкнутой системе энергия не исчезает, а только переходит из одной формы в другую. Сумма всех форм энергии в системе остается постоянной.</p>
+
+        <div class="formula">
+            <strong>Основное уравнение закона сохранения энергии:</strong> E₁ + W = E₂
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>E₁ — начальная энергия системы (джоуль, Дж)</li>
+                <li>W — работа, совершенная в системе (джоуль, Дж)</li>
+                <li>E₂ — конечная энергия системы (джоуль, Дж)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если тело падает с высоты, его потенциальная энергия переходит в кинетическую при движении вниз. Если в начале высота была 10 м, то потенциальная энергия на этой высоте равна:
+            <br><br>
+            E = m * g * h = 1 кг * 9.8 м/с² * 10 м = 98 Дж
+        </div>
+    </div>
+
+    <!-- Раздел 3: Молекулярно-кинетическая теория -->
+    <div class="section">
+        <h2>3. Молекулярно-кинетическая теория</h2>
+        <p>Молекулярно-кинетическая теория объясняет поведение газов и жидкостей с точки зрения движения молекул. Согласно этой теории, молекулы находятся в постоянном движении, и их взаимодействия создают давление и температуру.</p>
+
+        <div class="formula">
+            <strong>Основное уравнение состояния идеального газа:</strong> PV = nRT
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>P — давление (паскаль, Па)</li>
+                <li>V — объем (метры кубические, м³)</li>
+                <li>n — количество вещества (моли)</li>
+                <li>R — универсальная газовая постоянная (8.31 Дж/(моль·К))</li>
+                <li>T — температура (кельвины, K)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Для 1 моля идеального газа при температуре 300 К и объеме 0.0224 м³ давление будет:
+            <br><br>
+            P = (nRT) / V = (1 моль * 8.31 Дж/(моль·К) * 300 К) / 0.0224 м³ = 111,413.39 Па
+        </div>
+    </div>
+
+    <!-- Раздел 4: Электрическое поле -->
+    <div class="section">
+        <h2>4. Электрическое поле</h2>
+        <p>Электрическое поле — это поле, создаваемое электрическими зарядами, которое влияет на другие заряды в своем воздействии.</p>
+
+        <div class="formula">
+            <strong>Формула для силы, действующей на заряд в электрическом поле:</strong> F = q * E
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>F — сила (ньютон, Н)</li>
+                <li>q — заряд (кулон, Кл)</li>
+                <li>E — напряженность электрического поля (вольт на метр, В/м)</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong> Если заряд 2 Кл находится в электрическом поле с напряженностью 3 В/м, то сила, действующая на этот заряд, будет:
+            <br><br>
+            F = 2 Кл * 3 В/м = 6 Н
+        </div>
+    </div>
+
+    <!-- Раздел 5: Магнитное поле -->
+    <div class="section">
+        <h2>5. Магнитное поле</h2>
+        <p>Магнитное поле — это физическое поле, которое действует на движущиеся электрические заряды, создавая магнитные силы.</p>
+
+        <div class="formula">
+            <strong>Формула для силы, действующей на заряд в магнитном поле:</strong> F = q * v * B * sin(θ)
+            <br><span class="unit">Где:</span>
+            <ul>
+                <li>F — сила (ньютон, Н)</li>
+                <li>q — заряд (кулон, Кл)</li>
+                <li>v — скорость заряда (метры в секунду, м/с)</li>
+                <li>B — магнитная индукция (тесла, Т)</li>
+                <li>θ — угол между вектором скорости и магнитным полем</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <strong>Пример:</strong>-
+            
+        </div>
+       
+    </div>
+    <div class="button-container">
+        <a href="index.html" class="btn">предыдущий блок</a>
+    </div>
+</main>
+</body>
+</html>
+           
